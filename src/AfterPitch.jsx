@@ -3,7 +3,7 @@ import Timer from './components/Timer/Timer';
 import ProductCard from './components/ProductCard/ProductCard';
 import CustomerReviews from './components/CustomerReviews/CustomerReviews';
 import SugarDefenderInfo from './components/SugarDefenderInfo/SugarDefenderInfo';
-import BonusOffer from './components/BonusOffer/BonusOffer';
+// import BonusOffer from './components/BonusOffer/BonusOffer';
 import IngredientsList from './components/IngredientsList/IngredientsList';
 import FreeShippingOffer from './components/FreeShippingOffer/FreeShippingOffer';
 import Testimonials from './components/Testimonials/Testimonials';
@@ -22,7 +22,7 @@ const AfterPitch = forwardRef((_, ref) => {
       <ProductCard />
       <CustomerReviews />
       <SugarDefenderInfo />
-      <BonusOffer />
+      {/* <BonusOffer /> */}
       <IngredientsList />
       <FreeShippingOffer />
       <Testimonials />

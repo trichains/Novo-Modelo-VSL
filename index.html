@@ -4,11 +4,36 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova VSL</title>
+
+    <!-- Google Fonts Poppins -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet" />
 
-    <title>Nova VSL</title>
+    <!-- Preload important resources -->
+    <link
+      rel="preload"
+      href="https://scripts.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/players/663e3c84ce7288000ab97907/player.js"
+      as="script" />
+    <link
+      rel="preload"
+      href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js"
+      as="script" />
+    <link
+      rel="preload"
+      href="https://images.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/players/663e3c84ce7288000ab97907/thumbnail.jpg"
+      as="image" />
+    <link
+      rel="preload"
+      href="https://cdn.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/660aceed46545a0007c39945/main.m3u8"
+      as="fetch" />
+
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://cdn.converteai.net" />
+    <link rel="dns-prefetch" href="https://scripts.converteai.net" />
+    <link rel="dns-prefetch" href="https://images.converteai.net" />
+    <link rel="dns-prefetch" href="https://api.vturb.com.br" />
   </head>
   <body>
     <div id="root"></div>

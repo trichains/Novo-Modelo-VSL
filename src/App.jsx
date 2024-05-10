@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setShowPitch(true);
-    }, 30000); // TODO: Alterar o pitch para 2660s (44:20)
+    }, 10000); // TODO: Alterar o pitch para 2660s (44:20)
     // !2660 * 1000 = 44:20
   }, []);
 

@@ -33,12 +33,12 @@ const ProductModal = () => {
           <dialog id="label-modal" className="modal">
             <div className="modal-box w-full flex flex-col items-center justify-center md:max-w-screen-xl relative bg-white">
               <img
-                src="/assets/product-modal/label.webp"
+                src="/assets/product-modal/labelFloraSlim.png"
                 alt="Supplement Facts"
                 className="mt-4 hidden md:flex object-cover hover:shadow-2xl transition-shadow duration-300"
               />
               <img
-                src="/assets/product-modal/mobile-label.webp"
+                src="/assets/product-modal/mobile-labelFloraSlim.png"
                 alt="Supplement Facts"
                 className="mt-4 w-96 md:hidden object-cover"
               />

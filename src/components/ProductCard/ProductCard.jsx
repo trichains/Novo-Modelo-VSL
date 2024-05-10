@@ -16,17 +16,17 @@ const ProductCard = ({
     <div
       // A borda vermelha só vai aparecer caso isFeatured seja true (para destacar o card do produto)
       className={` bg-white rounded-3xl overflow-hidden shadow-xl transition-shadow duration-300 ${
-        isFeatured ? 'ring-2 ring-red-800' : ''
+        isFeatured ? 'ring-2 ring-sky-600' : ''
       }`}>
       <div className="flex flex-col gap-2 justify-center p-4 items-center bg-slate-100">
         <h3 className="text-4xl font-semibold">{title}</h3>
         <p className="text-base text-gray-800">{supply}</p>
       </div>
-      <div className="w-full p-2">
+      <div className="w-3/4 p-2 mx-auto">
         <img
           src={imageUrl}
           alt={title}
-          className="object-cover hover:scale-110 transition-transform duration-300"
+          className="w-full object-cover hover:scale-110 transition-transform duration-300"
         />
       </div>
       <div className="flex flex-col items-center justify-center gap-2 p-2">
@@ -101,39 +101,42 @@ const Products = ({ specialOfferText }) => {
           </div>
         )}
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 p-2">
+          {/* 1 kit */}
           <ProductCard
             title="Try One"
             supply="30 Day Supply"
-            price="69"
-            oldPrice="179"
+            price="59"
+            oldPrice="118"
             shipping="+ Shipping"
-            savings="110"
-            bonus="No bonuses"
+            savings="59"
+            bonus="" // no bonuses
             buttonText="ADD TO CART"
-            imageUrl="/assets/products/prod1.webp"
+            imageUrl="/assets/products/1kit.png"
           />
+          {/* 6 kits */}
           <ProductCard
             title="Best Value"
             supply="180 Day Supply"
-            price="49"
-            oldPrice="1074"
+            price="294"
+            oldPrice="588"
             shipping="+ Free Us Shipping"
-            savings="780"
-            bonus="+ 2 FREE E-BOOKS"
+            savings="294"
+            bonus="" // no bonuses
             buttonText="ADD TO CART"
-            imageUrl="/assets/products/prod6.webp"
+            imageUrl="/assets/products/6kits.png"
             isFeatured={true} // A borda vermelha será exibida para destacar esse card do produto
           />
+          {/* 3 kits */}
           <ProductCard
             title="Most Popular"
             supply="90 Day Supply"
-            price="59"
-            oldPrice="537"
+            price="177"
+            oldPrice="354"
             shipping="+ Free Us Shipping"
-            savings="360"
-            bonus="+ 2 FREE E-BOOKS"
+            savings="177"
+            bonus="" // no bonuses
             buttonText="ADD TO CART"
-            imageUrl="/assets/products/prod3.webp"
+            imageUrl="/assets/products/3kits.png"
           />
         </div>
       </div>
