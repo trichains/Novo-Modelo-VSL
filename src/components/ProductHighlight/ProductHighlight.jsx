@@ -27,7 +27,7 @@ const ProductHighlight = () => {
               furnace that melts away all the stubborn fat. Wake up slimmer and
               watch your measurements shrink daily, leaving you feeling sexier!
             </p>
-            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
+            <ul className="grid grid-cols-2 lg:grid-cols-3 gap-2 text-xs sm:text-sm">
               <li>✔ Natural Formula</li>
               <li>✔ Plant Ingredients</li>
               <li>✔ Non-GMO</li>

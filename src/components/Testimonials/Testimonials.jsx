@@ -81,7 +81,10 @@ const Testimonials = () => {
                     {testimonial.testimonial}
                   </p>
                   <div className="flex items-center gap-1">
-                    <h3 className="text-xl font-bold">{testimonial.name}</h3>-
+                    <h3 className="text-base sm:text-xl font-bold">
+                      {testimonial.name}
+                    </h3>
+                    -
                     <span className="text-sm text-gray-500">
                       {testimonial.location}
                     </span>

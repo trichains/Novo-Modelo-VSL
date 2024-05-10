@@ -54,8 +54,8 @@ const ProductCard = ({
             {buttonText}
           </a>
         </div>
-        <div className="flex flex-col items-center justify-center gap-1">
-          <p className="text-base text-center mt-2">
+        <div className="w-full flex flex-col items-center justify-center gap-1">
+          <p className="text-sm sm:text-base text-center mt-2">
             365 Days Money-Back Guarantee
           </p>
           <div className="p-4">
@@ -70,7 +70,7 @@ const ProductCard = ({
             <span className="text-stone-500 line-through">${oldPrice}</span>
             <span className="font-semibold text-lg">${savings}</span>
           </div>
-          <span className="text-base font-semibold">{shipping}</span>
+          <span className="text-sm sm:text-base font-semibold">{shipping}</span>
         </div>
       </div>
     </div>
