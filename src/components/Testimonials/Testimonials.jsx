@@ -29,7 +29,7 @@ const testimonials = [
     image: '/assets/testimonials/woman1.jpg'
   },
   {
-    id: 2,
+    id: 3,
     name: 'Elizabeth Brown',
     location: 'Philadelphia, Pennsylvania',
     testimonial:

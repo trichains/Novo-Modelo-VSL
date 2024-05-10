@@ -18,7 +18,7 @@ const faqData = [
       'FloraSlim is a natural weight loss product that causes no side effects and has no contraindications, making it completely safe for anyone. Approved by the FDA and other US regulatory bodies, FloraSlim is suitable for your weight loss routine. Enjoy the benefits worry-free.'
   },
   {
-    question: 'How should i use floraSlim?',
+    question: 'How should i use FloraSlim?',
     answer:
       "It's very simple! Just use 2 droppers of FloraSlim per day as directed, incorporating it into your daily routine. Results will start to become apparent within the first few weeks of use."
   },

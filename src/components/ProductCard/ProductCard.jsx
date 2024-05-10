@@ -10,7 +10,8 @@ const ProductCard = ({
   bonus,
   buttonText,
   imageUrl,
-  isFeatured
+  isFeatured,
+  checkoutUrl
 }) => {
   return (
     <div
@@ -44,10 +45,14 @@ const ProductCard = ({
           </p>
           <p className="text-sm">{bonus}</p>
         </div>
-        <div className="w-full">
-          <button className="bg-yellow-300 hover:bg-yellow-400 text-lg font-bold py-4 px-6 rounded-full w-full transition-colors duration-300">
+        <div className="w-full flex items-center justify-center text-center">
+          <a
+            href={checkoutUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-yellow-300 hover:bg-yellow-400 text-lg font-bold p-4 rounded-full w-full transition-colors duration-300">
             {buttonText}
-          </button>
+          </a>
         </div>
         <div className="flex flex-col items-center justify-center gap-1">
           <p className="text-base text-center mt-2">
@@ -83,7 +88,8 @@ ProductCard.propTypes = {
   bonus: PropTypes.string,
   buttonText: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
-  isFeatured: PropTypes.bool // valor booleano para 'true' ou 'false'
+  isFeatured: PropTypes.bool, // valor booleano para 'true' ou 'false'
+  checkoutUrl: PropTypes.string.isRequired
 };
 
 const Products = ({ specialOfferText }) => {
@@ -112,6 +118,7 @@ const Products = ({ specialOfferText }) => {
             bonus="" // no bonuses
             buttonText="ADD TO CART"
             imageUrl="/assets/products/1kit.png"
+            checkoutUrl="https://www.digistore24.com/product/546334" // 1 bottle - $59
           />
           {/* 6 kits */}
           <ProductCard
@@ -125,6 +132,7 @@ const Products = ({ specialOfferText }) => {
             buttonText="ADD TO CART"
             imageUrl="/assets/products/6kits.png"
             isFeatured={true} // A borda azul será exibida para destacar esse card do produto
+            checkoutUrl="https://www.digistore24.com/product/544945" // 6 bottles - $247
           />
           {/* 3 kits */}
           <ProductCard
@@ -137,6 +145,7 @@ const Products = ({ specialOfferText }) => {
             bonus="" // no bonuses
             buttonText="ADD TO CART"
             imageUrl="/assets/products/3kits.png"
+            checkoutUrl="https://www.digistore24.com/product/544946" // 3 bottles - $147
           />
         </div>
       </div>

@@ -15,15 +15,25 @@ function App() {
   const TimerRef = useRef(null); // Referência para o componente Timer
 
   useEffect(() => {
+    // Define uma função no window para que possa ser chamada através do console do navegador
+    window.showEls = () => {
+      setShowPitch(true);
+      localStorage.setItem('pitchShown', 'true');
+    };
+
     // Se o pitch ainda não foi mostrado, ativa o pitch após 10 segundos
     if (!showPitch) {
       const timer = setTimeout(() => {
         setShowPitch(true);
         localStorage.setItem('pitchShown', 'true'); // Salva o estado no localStorage
-      }, 30000); // TODO: Alterar o pitch para 2660s (44:20)
+      }, 10000); // TODO: Alterar o pitch para 2660s (44:20)
       // !2660 * 1000 = 44:20
 
-      return () => clearTimeout(timer);
+      return () => {
+        clearTimeout(timer);
+        // Limpa a função definida no window ao desmontar o componente
+        delete window.showEls;
+      };
     }
   }, [showPitch]);
 

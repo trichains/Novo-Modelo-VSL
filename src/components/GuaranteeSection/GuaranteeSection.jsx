@@ -18,13 +18,13 @@ const GuaranteeSection = () => {
               365-Days Money Back Guarantee
             </h2>
             <p className="text-base">
-              FloraSlim® is backed by a 100% money-back guarantee for a full 180
+              FloraSlim® is backed by a 100% money-back guarantee for a full 365
               days from your purchase. If you are not completely satisfied with
-              the product, your results or your experience within the first 180
+              the product, your results or your experience within the first 365
               days, simply let us know by sending an email to sac@sevencom.org
               and we will give you a full refund within 48 hours of the full
               amount. That&#39;s right, simply return all bottles of product,
-              whether full and/or empty, at any time within 180 days of your
+              whether full and/or empty, at any time within 365 days of your
               purchase and you will receive a full refund. This is the extent of
               our confidence in the product. So, request your kit today,
               risk-free. We guarantee your results with our own money.
