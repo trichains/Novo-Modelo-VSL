@@ -10,7 +10,7 @@ const Timer = forwardRef((_, ref) => {
   // Inicialização do estado usando localStorage para persistir o temporizador através de recargas da página.
   const [timeLeft, setTimeLeft] = useState(() => {
     const savedTime = localStorage.getItem('timer');
-    return savedTime ? JSON.parse(savedTime) : { minutes: 30, seconds: 0 };
+    return savedTime ? JSON.parse(savedTime) : { minutes: 59, seconds: 59 };
   });
 
   // Efeito para configurar o intervalo do temporizador e a lógica de contagem regressiva.

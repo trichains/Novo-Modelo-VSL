@@ -2,10 +2,10 @@ import Container from '../Container/Container';
 
 // Dados das imagens de clientes para simulação
 const customerImages = [
-  { id: 1, image: '/assets/testimonials/person1.jpg', name: 'Customer 1' },
-  { id: 2, image: '/assets/testimonials/person2.jpg', name: 'Customer 2' },
-  { id: 3, image: '/assets/testimonials/person3.jpg', name: 'Customer 3' },
-  { id: 4, image: '/assets/testimonials/person4.jpg', name: 'Customer 4' }
+  { id: 1, image: '/assets/testimonials/person1.png', name: 'Customer 1' },
+  { id: 2, image: '/assets/testimonials/person2.png', name: 'Customer 2' },
+  { id: 3, image: '/assets/testimonials/person3.png', name: 'Customer 3' },
+  { id: 4, image: '/assets/testimonials/person4.png', name: 'Customer 4' }
 ];
 
 // Dados dos depoimentos para simulação
@@ -88,7 +88,7 @@ const Testimonials = () => {
                     {Array.from({ length: 5 }, (_, index) => (
                       <input
                         name={`rating-${testimonial.id}`}
-                        className="mask mask-star-2 bg-amber-400"
+                        className="mask mask-star-2 bg-yellow-400"
                         key={index}
                         checked={index < testimonial.stars}
                         readOnly

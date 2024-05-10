@@ -44,7 +44,7 @@ const BonusOffer = () => {
             </div>
           </div>
           <div className="w-full flex flex-col items-center">
-            <button className="w-full max-w-xs p-4 bg-amber-400 text-black rounded-full font-bold hover:bg-amber-500 transition-colors">
+            <button className="w-full max-w-xs p-4 bg-yellow-400 text-black rounded-full font-bold hover:bg-yellow-500 transition-colors">
               ORDER NOW
             </button>
           </div>

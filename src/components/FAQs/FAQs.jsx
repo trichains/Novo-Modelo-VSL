@@ -3,39 +3,39 @@ import Container from '../Container/Container';
 // Estrutura de dados para as perguntas frequentes, facilitando a manutenção e adição de novas questões.
 const faqData = [
   {
-    question: 'Is FloraSlim right for Me?',
+    question: 'What Is FloraSlim?',
     answer:
-      "FloraSlim has provided amazing blood sugar support for men and women in their 30s, 40s, 50s and even 70s. Because it was engineered based on teachings of modern science, FloraSlim formula is very gentle yet very powerful at the same time using pure plant ingredients and natural minerals. And you can rest assured knowing it's manufactured in the United States in a state-of-the-art FDA registered and GMP certified facility."
+      'FloraSlim is a 100% natural, safe, and effective weight loss product. Thousands of people undergo treatment with FloraSlim every day without any reports of side effects. Each bottle is manufactured in the United States in state-of-the-art facilities approved by the FDA, ensuring the highest standards of excellence and quality in production. Rest assured that you are using a product that is safe and of the highest quality in your weight loss routine.'
   },
   {
-    question: 'What kind of results can I expect from FloraSlim?',
+    question: "What's the best-selling package?",
     answer:
-      'FloraSlim is a powerful and effective blood sugar support and all-day energy helper. Thousands of people enjoy taking FloraSlim every day with great results and we have not received a single complaint yet. Once your body adapts to the ingredients you will notice less hunger, more energy and better blood sugar readings.'
+      "Our best-selling package is the 6-bottle bundle for a 6-month treatment because its natural ingredients work progressively in the body, providing more lasting results. This package is recommended because it's the treatment duration identified by researchers as the optimal time to achieve the best weight loss results. With continuous use of FloraSlim, you can achieve a healthier and slimmer body. Take advantage of our offer for incredible results in your weight loss journey."
   },
   {
-    question: 'How long does it take to see results?',
+    question: 'Are there any contraindications or side effects?',
     answer:
-      "We're all different and that's why the time it takes to see results varies. Most people start feeling a difference after the first week. In our tests, the best results come when you take FloraSlim consistently for 3 months (or longer). Therefore, we strongly recommend you take advantage of our 3 or 6 bottle discount package."
+      'FloraSlim is a natural weight loss product that causes no side effects and has no contraindications, making it completely safe for anyone. Approved by the FDA and other US regulatory bodies, FloraSlim is suitable for your weight loss routine. Enjoy the benefits worry-free.'
   },
   {
-    question: 'What is the best way to take FloraSlim?',
+    question: 'How should i use floraSlim?',
     answer:
-      'Take two full droppers under your tongue in the morning before breakfast... Hold the tincture under your tongue for 30 seconds before swallowing to maximize absorption. If the taste is too potent or prefer another method, dissolve two full droppers in a glass of water and drink it either in one go or split into two servings. You will love the results and feel the difference with each drop.'
+      "It's very simple! Just use 2 droppers of FloraSlim per day as directed, incorporating it into your daily routine. Results will start to become apparent within the first few weeks of use."
   },
   {
-    question: "What if FloraSlim doesn't work for me?",
+    question: 'Is the composition natural?',
     answer:
-      "I demand you are enthusiastic with your purchase, not just satisfied. And you won't know until you try it! So you can use FloraSlim for 60 days, with my 'No Questions Asked 100% Money Back Guarantee'. The only way to be totally convinced is to try this amazing formula and experience the results for yourself."
+      "Yes, FloraSlim's composition is made from 100% natural, health-safe ingredients that have been clinically tested and approved. Our product is carefully formulated to ensure effectiveness in weight loss while maintaining user safety and health. With FloraSlim, you can be confident that you're using a reliable product on your weight loss journey."
   },
   {
-    question: 'Where can I buy FloraSlim and how quickly can I get it?',
+    question: 'How soon can i see my results?',
     answer:
-      "To make sure you are buying the original product and to ensure the purity of ingredients please buy from the official website only. We'll ship your order directly to your home or office using a premium carrier such as FedEx or UPS. We strive to ship every order within 24 working hours and to make things easy you will receive an email with your tracking number so that you can follow your package. On average, the package will arrive at your doorstep somewhere between 5 to 10 days for domestic orders."
+      'Results with FloraSlim vary from person to person, but many users report significant improvements in their weight and body composition within the first few weeks of use. With its natural and effective formula, FloraSlim can help speed up metabolism, reduce body fat, and promote healthy weight loss. Try it for yourself and start enjoying the benefits of a slimmer body with FloraSlim.'
   },
   {
-    question: 'Is my purchase secure? How many times will you charge my card?',
+    question: "What's the delivery time frame?",
     answer:
-      'To purchase FloraSlim you are only asked for a one time payment right on this page. There are no other future payments needed to benefit from this product. This website is highly secure. We use industry-leading technology (such as SSLs) to keep your information safe and private.'
+      "The average delivery time for FloraSlim in the United States is 3 to 12 business days, depending on the location. Our product is shipped following payment confirmation, and we are committed to providing high-quality service to our customers, ensuring that your order is delivered quickly and in perfect condition. If you're looking to improve your body composition with FloraSlim, just place your order now and wait for the efficient and reliable delivery of the product."
   }
 ];
 

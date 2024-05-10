@@ -14,9 +14,9 @@ const ProductCard = ({
 }) => {
   return (
     <div
-      // A borda vermelha só vai aparecer caso isFeatured seja true (para destacar o card do produto)
+      // A borda azul só vai aparecer caso isFeatured seja true (para destacar o card do produto)
       className={` bg-white rounded-3xl overflow-hidden shadow-xl transition-shadow duration-300 ${
-        isFeatured ? 'ring-2 ring-sky-600' : ''
+        isFeatured ? 'ring-2 ring-sky-600 scale-100 sm:scale-105' : ''
       }`}>
       <div className="flex flex-col gap-2 justify-center p-4 items-center bg-slate-100">
         <h3 className="text-4xl font-semibold">{title}</h3>
@@ -45,13 +45,13 @@ const ProductCard = ({
           <p className="text-sm">{bonus}</p>
         </div>
         <div className="w-full">
-          <button className="bg-amber-300 hover:bg-amber-400 text-lg font-bold py-4 px-6 rounded-full w-full transition-colors duration-300">
+          <button className="bg-yellow-300 hover:bg-yellow-400 text-lg font-bold py-4 px-6 rounded-full w-full transition-colors duration-300">
             {buttonText}
           </button>
         </div>
         <div className="flex flex-col items-center justify-center gap-1">
           <p className="text-base text-center mt-2">
-            60 Day Money-Back Guarantee
+            365 Days Money-Back Guarantee
           </p>
           <div className="p-4">
             <img
@@ -63,7 +63,7 @@ const ProductCard = ({
           <div className="flex items-center gap-1 text-base">
             Total:
             <span className="text-stone-500 line-through">${oldPrice}</span>
-            <span className="font-semibold text-lg">${price}</span>
+            <span className="font-semibold text-lg">${savings}</span>
           </div>
           <span className="text-base font-semibold">{shipping}</span>
         </div>
@@ -88,7 +88,7 @@ ProductCard.propTypes = {
 
 const Products = ({ specialOfferText }) => {
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white py-12 px-4">
       <div className="max-w-screen-xl mx-auto">
         {/* Caso tenha o specialOfferText, mostre o texto */}
         {specialOfferText && (
@@ -100,7 +100,7 @@ const Products = ({ specialOfferText }) => {
             </h2>
           </div>
         )}
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 p-2">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-10">
           {/* 1 kit */}
           <ProductCard
             title="Try One"
@@ -117,23 +117,23 @@ const Products = ({ specialOfferText }) => {
           <ProductCard
             title="Best Value"
             supply="180 Day Supply"
-            price="294"
+            price="39"
             oldPrice="588"
             shipping="+ Free Us Shipping"
-            savings="294"
+            savings="247"
             bonus="" // no bonuses
             buttonText="ADD TO CART"
             imageUrl="/assets/products/6kits.png"
-            isFeatured={true} // A borda vermelha será exibida para destacar esse card do produto
+            isFeatured={true} // A borda azul será exibida para destacar esse card do produto
           />
           {/* 3 kits */}
           <ProductCard
             title="Most Popular"
             supply="90 Day Supply"
-            price="177"
+            price="49"
             oldPrice="354"
             shipping="+ Free Us Shipping"
-            savings="177"
+            savings="147"
             bonus="" // no bonuses
             buttonText="ADD TO CART"
             imageUrl="/assets/products/3kits.png"

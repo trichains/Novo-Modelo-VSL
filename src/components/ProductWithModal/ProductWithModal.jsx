@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 // Componente principal que contém a lógica do modal e a imagem do produto
 const ProductModal = () => {
   return (
-    <div className="bg-white pt-4 px-4 pb-12">
+    <div className="bg-gradientCustom pt-4 px-4 pb-12">
       <Container>
         <div className="flex flex-col items-center justify-center">
           {/* Imagem que, ao clicar, abre o modal */}
@@ -11,14 +11,14 @@ const ProductModal = () => {
             className="w-full md:w-2/4 relative flex flex-col items-center justify-center cursor-pointer"
             onClick={() => document.getElementById('label-modal').showModal()}>
             <img
-              src="/assets/product-modal/bottle-label.webp"
+              src="/assets/product-modal/bottle-label.png"
               alt="FloraSlim"
-              className="w-full object-cover cursor-pointer bg-black"
+              className="w-full object-cover cursor-pointer"
             />
 
             {/* Ícone de lupa centralizado sobre a imagem */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <button className="text-3xl bg-amber-400 hover:bg-amber-500 text-black font-bold p-4 rounded-lg transition-colors duration-300 animate-pulse">
+              <button className="text-3xl bg-yellow-400 hover:bg-yellow-500 text-black font-bold p-4 rounded-lg transition-colors duration-300 animate-pulse">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="16"
@@ -31,17 +31,20 @@ const ProductModal = () => {
           </div>
           {/* Dialog modal */}
           <dialog id="label-modal" className="modal">
-            <div className="modal-box w-full flex flex-col items-center justify-center md:max-w-screen-xl relative bg-white">
+            <div className="modal-box flex flex-col items-center justify-center md:max-w-screen-xl relative bg-white">
               <img
                 src="/assets/product-modal/labelFloraSlim.png"
                 alt="Supplement Facts"
                 className="mt-4 hidden md:flex object-cover hover:shadow-2xl transition-shadow duration-300"
               />
+
+              {/* label pra mobile */}
               <img
-                src="/assets/product-modal/mobile-labelFloraSlim.png"
+                src="/assets/product-modal/mobile-label.png"
                 alt="Supplement Facts"
-                className="mt-4 w-96 md:hidden object-cover"
+                className="w-full md:hidden object-cover"
               />
+
               {/* Botão de fechar o modal */}
               <form method="dialog">
                 <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-0 text-3xl">

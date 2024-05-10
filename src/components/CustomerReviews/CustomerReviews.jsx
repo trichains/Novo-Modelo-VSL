@@ -9,12 +9,12 @@ const CustomerReviews = () => {
             <p className="text-sm sm:text-base">
               Our customers say <span className="font-bold">4.98/5</span>
             </p>
-            <div className="rating">
-              <input className="mask mask-star-2 bg-amber-400" />
-              <input className="mask mask-star-2 bg-amber-400" />
-              <input className="mask mask-star-2 bg-amber-400" />
-              <input className="mask mask-star-2 bg-amber-400" />
-              <input className="mask mask-star-2 bg-amber-400" />
+            <div className="rating flex items-center">
+              <input className="mask mask-star-2 bg-yellow-400" disabled />
+              <input className="mask mask-star-2 bg-yellow-400" disabled />
+              <input className="mask mask-star-2 bg-yellow-400" disabled />
+              <input className="mask mask-star-2 bg-yellow-400" disabled />
+              <input className="mask mask-star-2 bg-yellow-400" disabled />
             </div>
             <p className="text-xs sm:text-sm">based on 2000+ reviews</p>
           </div>

@@ -9,16 +9,11 @@ const ScientificReferences = () => {
           <h2 className="text-3xl md:text-4xl font-medium text-center">
             Scientific <span className="font-bold">References</span>
           </h2>
-          <div className="flex flex-wrap justify-center items-center">
+          <div className="w-full md:w-3/4 flex flex-wrap justify-center items-center">
             <img
-              src="/assets/refs/refs1.jpg"
+              src="/assets/refs/refs.png"
               alt="American Diabetes Association"
-              className="h-12"
-            />
-            <img
-              src="/assets/refs/refs2.jpg"
-              alt="Newcastle University"
-              className="h-12"
+              className="w-full"
             />
           </div>
           <p className="text-center text-xs">
@@ -42,27 +37,32 @@ const ScientificReferences = () => {
 
 // Lista de referências para ser exibida
 const scientificReferences = [
-  'Healthy behavior change and cardiovascular outcomes in newly diagnosed type 2 diabetic patients: a cohort analysis of the ADDITION-Cambridge study',
-  'Effects of short-term chromium supplementation on insulin sensitivity and body composition in overweight children: randomized, double-blind, placebo-controlled study',
-  'Reversing Type 2 Diabetes and ongoing remission',
-  'Ginseng therapy in non-insulin-dependent diabetic patients',
-  'Role of chromium supplementation in Indians with type 2 diabetes mellitus',
-  'Elevated intakes of supplemental chromium improve glucose and insulin variables in individuals with type 2 diabetes',
-  'Understanding the root causes of diabetes to develop effective therapies for individuals with type 2 diabetes mellitus',
-  'Chromium supplementation shortens QTc interval duration in patients with type 2 diabetes mellitus',
-  'Single doses of Panax ginseng (G115) reduce blood glucose levels and improve cognitive performance during sustained mental activity',
-  'Effect of chromium on glucose and lipid profiles in patients with type 2 diabetes; a meta-analysis review of randomized trials',
-  'Effect of Korean red ginseng on arterial stiffness in subjects with hypertension',
-  'Yale scientists study how some insulin-producing cells survive in type 1 diabetes',
-  'Effects of oral L-carnitine supplementation on insulin sensitivity indices in response to glucose feeding in lean and overweight/obese males',
-  'Effects of Panax ginseng supplementation on muscle damage and inflammation after uphill treadmill running in humans',
-  'Ameliorating hypertension and insulin resistance in subjects at increased cardiovascular risk: effects of acetyl-L-carnitine therapy',
-  'The effects of L-carnitine supplementation on glycemic control: a systematic review and meta-analysis of randomized controlled trials',
-  'Pharmacokinetic and the effect of capsaicin in Capsicum frutescens on decreasing plasma glucose level',
-  'The effect of eight weeks of supplementation with Eleutherococcus senticosus on endurance capacity and metabolism in human',
-  'Effect of 2-month controlled green tea intervention on lipoprotein cholesterol, glucose, and hormone levels in healthy postmenopausal women',
-  'The effect of Irvingia gabonensis seeds on body weight and blood lipids of obese subjects in Cameroon',
-  'Acceptability, Safety, and Efficacy of Oral Administration of Extracts of Black or Red Maca (Lepidium meyenii) in Adult Human Subjects: A Randomized, Double-Blind, Placebo-Controlled Study'
+  'Role of Irvingia Gabonensis Extract in Reducing Body Weight and Blood Lipids: A Review of Studies on Overweight Subjects.',
+  'Effects of Oral L-Carnitine Supplementation on Fat Oxidation and Insulin Sensitivity in Lean and Overweight/Obese Males: A Systematic Review.',
+  'Effects of Astragalus Root Extract on Weight Management and Metabolic Health in Overweight Individuals: A Cohort Analysis.',
+  'The Role of Camu Camu Extract in Improving Metabolic Health and Promoting Weight Loss in Overweight Individuals.',
+  'Single Doses of Panax Ginseng (G115) Reduce Blood Glucose Levels and Promote Fat Loss During Sustained Mental Activity in Overweight Individuals.',
+  'Acceptability, Safety, and Efficacy of Oral Administration of Extracts of Black or Red Maca (Lepidium Meyenii) in Adult Human Subjects: A Randomized, Double-blind, Placebo-controlled Study.',
+  'The Effect of Eight Weeks of Supplementation with Eleutherococcus Senticosus on Endurance Capacity and Metabolism in Overweight Humans',
+  'Effect of Coleus Forskohlii Extract on Body Composition and Fat Metabolism in Overweight Subjects: A Double-blind, Placebo-controlled Study.',
+  'Effects of Gymnema Sylvestre on Appetite Suppression and Weight Loss in Overweight Subjects: Current Perspectives.',
+  'Pharmacokinetics and the Effect of Capsaicin in Capsicum Frutescens on Decreasing Plasma Glucose and Promoting Weight Loss.',
+  'Effect of 2-Month Controlled Green Tea Intervention on Lipoprotein Cholesterol, Glucose, and Hormone Levels in Overweight Postmenopausal Women.',
+  'Role of Astragalus Root Extract in Weight Management and Improving Metabolic Health in Overweight Adults.',
+  'Role of Beta-Carotene Supplementation in Weight Management and Fat Oxidation in Overweight Individuals.',
+  'Elevated Intake of Vitamin C Enhances Fat Reduction and Metabolic Health: Insights from Overweight Adults.',
+  'Effects of Vitamin B Complex on Enhancing Metabolism and Reducing Body Weight in Overweight Subjects.',
+  'Capsaicin from Capsicum Annuum Enhances Fat Oxidation and Reduces Body Fat in Overweight Subjects.',
+  'Role of Gymnema Sylvestre in Weight Loss and Blood Sugar Management: A Systematic Review of Overweight Studies.',
+  'Coleus Forskohlii Extract and Its Impact on Body Composition and Fat Metabolism in Overweight Subjects: A Randomized, Double-blind, Placebo-controlled Study.',
+  'Combination Therapy with Green Tea Extract and L-Carnitine for Enhanced Fat Oxidation and Weight Loss: A Systematic Review and Meta-analysis.',
+  'Elevated Intake of Beta-Carotene Reduces Body Fat and Improves Metabolic Health in Overweight Individuals: A Longitudinal Study.',
+  'Role of Vitamin C in Enhancing Fat Reduction and Metabolic Health: Insights from Overweight Adults.',
+  'Effects of B Vitamins on Metabolism and Weight Management in Overweight Individuals: A Meta-analysis Review.',
+  'Capsaicin from Capsicum Annuum Enhances Fat Oxidation and Reduces Body Fat in Overweight Individuals: A Randomized Controlled Study.',
+  'Pharmacokinetics and the Effect of Capsaicin in Capsicum Frutescens on Decreasing Plasma Glucose and Promoting Weight Loss.',
+  'The Role of Camu Camu Extract in Improving Metabolic Health and Promoting Weight Loss in Overweight Individuals.',
+  'Acceptability, Safety, and Efficacy of Oral Administration of Extracts of Black or Red Maca (Lepidium Meyenii) in Adult Human Subjects: A Randomized, Double-blind, Placebo-controlled Study.'
 ];
 
 export default ScientificReferences;

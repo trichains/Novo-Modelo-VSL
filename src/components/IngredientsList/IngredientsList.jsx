@@ -54,8 +54,8 @@ const IngredientsList = () => {
             You&#39;ll Find:
           </h2>
           <p className="text-base text-gray-600">
-            8 Carefully-Selected Ingredients That Support Healthy Blood Sugar
-            Levels, Including:
+            8 Carefully-Selected Ingredients That Support Weight Loss,
+            Including:
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">

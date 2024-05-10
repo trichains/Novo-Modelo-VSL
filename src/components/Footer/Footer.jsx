@@ -10,100 +10,83 @@ const Footer = () => {
           {/* Links de navegação */}
           <div className="flex flex-wrap text-center md:text-left items-center justify-center gap-4">
             <a
-              href="/contact"
-              className="hover:underline hover:text-amber-400 transition-colors duration-300 tracking-wider font-medium">
+              href="#"
+              className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Contact
             </a>
             <a
-              href="/terms"
-              className="hover:underline hover:text-amber-400 transition-colors duration-300 tracking-wider font-medium">
+              href="#"
+              className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Terms
             </a>
             <a
-              href="/privacy"
-              className="hover:underline hover:text-amber-400 transition-colors duration-300 tracking-wider font-medium">
+              href="#"
+              className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Privacy
             </a>
             <a
-              href="/return-policy"
-              className="hover:underline hover:text-amber-400 transition-colors duration-300 tracking-wider font-medium">
+              href="#"
+              className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Return Policy
             </a>
             <a
-              href="/shipping"
-              className="hover:underline hover:text-amber-400 transition-colors duration-300 tracking-wider font-medium">
+              href="#"
+              className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Shipping
             </a>
             <a
-              href="/disclaimer"
-              className="hover:underline hover:text-amber-400 transition-colors duration-300 tracking-wider font-medium">
+              href="#"
+              className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Disclaimer
             </a>
             <a
-              href="/report-spam"
-              className="hover:underline hover:text-amber-400 transition-colors duration-300 tracking-wider font-medium">
+              href="#"
+              className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Report Spam
             </a>
           </div>
           {/* Texto informativo */}
           <div className="flex flex-col gap-4 text-xs md:text-sm">
             <p>
-              Statements on this website have not been evaluated by the FDA.
-              Products are not intended to diagnose, treat, cure or prevent any
-              disease.
+              The information we provide is not intended to replace consultation
+              with a qualified medical professional. We encourage you to inform
+              your doctor about any changes you make to your lifestyle and
+              discuss them with him or her. For questions or concerns about any
+              medical conditions you may have, please contact your doctor. The
+              content of the website and the product for sale are based on the
+              author&#39;s opinion and are provided &quot;AS IS&quot; and
+              &quot;AS AVAILABLE&quot;. You should conduct your own research and
+              verify the information with other sources when researching health
+              issues and always review the information carefully with your
+              healthcare professional before using any of the protocols
+              presented on this website and/or the product sold here.
+              Testimonials, case studies, and examples found on this page are
+              results submitted to us by FloraSlim users and may not reflect the
+              typical buyer&#39;s experience, may not apply to an average
+              person, and are not intended to represent or guarantee that any
+              person will achieve the same or similar results. Some names and
+              personally identifying information on this site have been changed
+              to protect individuals&#39; privacy.
             </p>
             <p>
-              The website&#39;s content and the product for sale is based upon
-              the author&#39;s opinion and is provided solely on an &#34;AS
-              IS&#34 and &#34;AS AVAILABLE&#34; basis. You should do your own
-              research and confirm the information with other sources when
-              searching for information regarding health issues and always
-              review the information carefully with your professional health
-              care provider before using any of the protocols presented on this
-              website and/or in the product sold here. Neither ClickBank nor the
-              author are engaged in rendering medical or similar professional
-              services or advice via this website or in the product, and the
-              information provided is not intended to replace medical advice
-              offered by a physician or other licensed healthcare provider. You
-              should not construe ClickBank&#39;s sale of this product as an
-              endorsement by ClickBank of the views expressed herein, or any
-              warranty or guarantee of any strategy, recommendation, treatment,
-              action, or application of advice made by the author of the
-              product.
+              The statements on this website have not been evaluated by the Food
+              and Drug Administration. This product is not intended to diagnose,
+              treat, cure, or prevent any disease. The information provided by
+              this website or this company is not a substitute for a
+              face-to-face consultation with your physician and should not be
+              construed as individual medical advice. The testimonials on this
+              website are individual cases and do not guarantee that you will
+              get the same results. All content, including text, graphics,
+              images, and information, contained on or available through this
+              website is for general information purposes only. You are
+              encouraged to confirm any information obtained from or through
+              this website with other sources and review all information
+              regarding any medical condition or treatment with your physician.
+              NEVER DISREGARD PROFESSIONAL MEDICAL ADVICE OR DELAY SEEKING
+              MEDICAL TREATMENT BECAUSE OF SOMETHING YOU HAVE READ ON OR
+              ACCESSED THROUGH THIS WEBSITE.
             </p>
-            <p>
-              Some names and personal identifying information have been changed
-              to protect the privacy of individuals.
-            </p>
-            <p>
-              ClickBank is the retailer of products on this site. CLICKBANK® is
-              a registered trademark of Click Sales Inc., a Delaware corporation
-              located at 1444 S. Entertainment Ave., Suite 410 Boise, ID 83709,
-              USA and used by permission. ClickBank&#39;s role as retailer does
-              not constitute an endorsement, approval or review of these
-              products or any claim, statement or opinion used in promotion of
-              these products.
-            </p>
-            <div className="flex flex-col gap-1">
-              <p>
-                For Product Support, please contact the vendor{' '}
-                <a
-                  href="#"
-                  className="text-blue-400 underline hover:text-blue-600">
-                  here
-                </a>
-                .
-              </p>
-              <p>
-                For Order Support, please contact ClickBank{' '}
-                <a
-                  href="#"
-                  className="text-blue-400 underline hover:text-blue-600">
-                  here
-                </a>
-                .
-              </p>
-            </div>
+
             <p className="text-gray-500">
               © FloraSlim Research 2024 All Rights Reserved.
             </p>

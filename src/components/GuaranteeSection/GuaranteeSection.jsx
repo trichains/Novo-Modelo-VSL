@@ -13,19 +13,21 @@ const GuaranteeSection = () => {
           />
           <div className="flex flex-col gap-8 md:gap-12 text-center px-2 pt-24 md:px-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium">
-              100% Satisfaction Guaranteed 60-Day Money Back Guarantee
+              100% Satisfaction Guaranteed
+              <br />
+              365-Days Money Back Guarantee
             </h2>
             <p className="text-base">
-              FloraSlim comes with a 100% money back guarantee - 60 full days
-              from your original purchase. If you&#39;re not totally and
-              completely satisfied with our product or your results within the
-              first 60 days simply let us know by calling our toll-free number
-              or dropping us an email and we&#39;ll gladly give you a full
-              refund within 48 hours of the product being returned. That&#39;s
-              right - simply return the product, even your empty bottles,
-              anytime within 60 days of your purchase and you&#39;ll receive a
-              full, no-questions-asked refund (minus shipping and handling
-              fees).
+              FloraSlim® is backed by a 100% money-back guarantee for a full 180
+              days from your purchase. If you are not completely satisfied with
+              the product, your results or your experience within the first 180
+              days, simply let us know by sending an email to sac@sevencom.org
+              and we will give you a full refund within 48 hours of the full
+              amount. That&#39;s right, simply return all bottles of product,
+              whether full and/or empty, at any time within 180 days of your
+              purchase and you will receive a full refund. This is the extent of
+              our confidence in the product. So, request your kit today,
+              risk-free. We guarantee your results with our own money.
             </p>
           </div>
         </div>
