@@ -3,44 +3,44 @@ import Container from '../Container/Container';
 // Array de ingredientes com detalhes para cada um.
 const ingredients = [
   {
-    name: 'Eleuthero',
-    desc: 'Increases Energy and Reduces Fatigue',
-    image: '/assets/ingredients/i-eleuthero.jpg'
-  },
-  {
-    name: 'Coleus',
-    desc: 'Fat Burning Aid',
-    image: '/assets/ingredients/i-coleus.jpg'
-  },
-  {
     name: 'Maca Root',
-    desc: 'Boosts Your Energy',
+    desc: 'Explodes energy and libido, torches fat, and turbocharges your metabolism.',
     image: '/assets/ingredients/i-maca-root.jpg'
   },
   {
-    name: 'African Mango',
-    desc: 'Fat Burning Agent',
-    image: '/assets/ingredients/i-african-mango.jpg'
+    name: 'Grape Seed',
+    desc: 'Flushes toxins, obliterates fat, and gives you unbeatable cardiovascular health.',
+    image: '/assets/ingredients/i-grapeseed.jpg'
   },
   {
-    name: 'Guarana',
-    desc: 'Stimulates Your Metabolism',
+    name: 'Guarana Seed',
+    desc: 'Burns fat, boosts focus, and melts away flab for ultimate weight loss.',
     image: '/assets/ingredients/i-guarana.jpg'
   },
   {
+    name: 'African Mango',
+    desc: 'Controls appetite, incinerates belly fat, and crushes cravings in days.',
+    image: '/assets/ingredients/i-african-mango.jpg'
+  },
+  {
+    name: 'Eleuthero',
+    desc: 'Supercharges stamina and obliterates fat, sculpting your body in weeks.',
+    image: '/assets/ingredients/i-eleuthero.jpg'
+  },
+  {
+    name: 'Astragalus Root',
+    desc: 'Annihilates fat, and fires up your metabolism like a rocket.',
+    image: '/assets/ingredients/i-astragalus-root.webp'
+  },
+  {
+    name: 'Green Tea Leaf',
+    desc: 'Turbocharges fat-burning, crushes appetite, and powers up your metabolism perfectly.',
+    image: '/assets/ingredients/i-greentea.webp'
+  },
+  {
     name: 'Gymnema',
-    desc: 'Supports Healthy Heart & Blood Sugar',
+    desc: 'Destroys sugar cravings, blocks carbs, and turns your body into a fat-burning machine.',
     image: '/assets/ingredients/i-gymnema.jpg'
-  },
-  {
-    name: 'Ginseng',
-    desc: 'Supports Healthy Blood Glucose',
-    image: '/assets/ingredients/i-ginseng-root.jpg'
-  },
-  {
-    name: 'Chromium',
-    desc: 'Controls Blood Glucose Levels',
-    image: '/assets/ingredients/i-chromium-picolinate.jpg'
   }
 ];
 
