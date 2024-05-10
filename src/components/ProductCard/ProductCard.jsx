@@ -94,7 +94,7 @@ ProductCard.propTypes = {
 
 const Products = ({ specialOfferText }) => {
   return (
-    <div className="bg-white py-12 px-4">
+    <div id="products" className="bg-white py-12 px-4">
       <div className="max-w-screen-xl mx-auto">
         {/* Caso tenha o specialOfferText, mostre o texto */}
         {specialOfferText && (

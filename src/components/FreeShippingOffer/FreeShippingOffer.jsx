@@ -17,9 +17,13 @@ const FreeShippingOffer = () => {
             <p className="text-sm md:text-base">
               365-Days Money Back Guarantee 100% Satisfaction Guaranteed
             </p>
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-6 rounded-3xl transition-colors">
-              ORDER NOW
-            </button>
+            <div className="flex justify-center items-center text-center">
+              <a
+                href="#products"
+                className="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-6 rounded-3xl transition-colors">
+                ORDER NOW
+              </a>
+            </div>
           </div>
           {/* Imagem do produto e frutas */}
           <div className="w-full sm:w-2/4">

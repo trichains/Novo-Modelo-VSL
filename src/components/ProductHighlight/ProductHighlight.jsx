@@ -35,9 +35,13 @@ const ProductHighlight = () => {
               <li>✔ Non-Habit Forming</li>
               <li>✔ 100% Safe</li>
             </ul>
-            <button className="bg-yellow-400 text-black py-2 px-6 rounded-full font-bold hover:bg-yellow-500 transition-colors">
-              ORDER NOW
-            </button>
+            <div className="flex justify-center items-center text-center">
+              <a
+                href="#products"
+                className="w-full bg-yellow-400 text-black py-2 px-6 rounded-full font-bold hover:bg-yellow-500 transition-colors">
+                ORDER NOW
+              </a>
+            </div>
           </div>
         </div>
       </Container>
