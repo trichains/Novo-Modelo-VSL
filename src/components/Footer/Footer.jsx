@@ -105,7 +105,7 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-gray-500">
-              © Sugar Defender Research 2024 All Rights Reserved.
+              © FloraSlim Research 2024 All Rights Reserved.
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ const ProductModal = () => {
             onClick={() => document.getElementById('label-modal').showModal()}>
             <img
               src="/assets/product-modal/bottle-label.webp"
-              alt="Sugar Defender"
+              alt="FloraSlim"
               className="w-full object-cover cursor-pointer bg-black"
             />
 

@@ -16,8 +16,8 @@ const GuaranteeSection = () => {
               100% Satisfaction Guaranteed 60-Day Money Back Guarantee
             </h2>
             <p className="text-base">
-              Sugar Defender comes with a 100% money back guarantee - 60 full
-              days from your original purchase. If you&#39;re not totally and
+              FloraSlim comes with a 100% money back guarantee - 60 full days
+              from your original purchase. If you&#39;re not totally and
               completely satisfied with our product or your results within the
               first 60 days simply let us know by calling our toll-free number
               or dropping us an email and we&#39;ll gladly give you a full

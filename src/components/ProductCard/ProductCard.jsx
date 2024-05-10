@@ -94,7 +94,7 @@ const Products = ({ specialOfferText }) => {
         {specialOfferText && (
           <div className="text-center mb-8 mx-auto">
             <h2 className="text-2xl md:text-4xl font-medium">
-              Try <span className="font-bold">Sugar Defender</span> Today
+              Try <span className="font-bold">FloraSlim</span> Today
               <br />
               At Special Introductory Pricing!
             </h2>
@@ -144,7 +144,7 @@ const Products = ({ specialOfferText }) => {
 // Definição de PropTypes para o componente Products
 Products.propTypes = {
   // `specialOfferText` é um valor booleano que controla a exibição do texto promocional especial no topo dos cartões de produto.
-  // Se `true`, o texto promocional "Try Sugar Defender Today At Special Introductory Pricing!" é exibido acima dos cartões de produto.
+  // Se `true`, o texto promocional "Try FloraSlim Today At Special Introductory Pricing!" é exibido acima dos cartões de produto.
   // Esse valor é passado como `true` no último uso do componente Products no arquivo App.jsx para destacar uma oferta especial.
   specialOfferText: PropTypes.bool
 };

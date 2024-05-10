@@ -50,7 +50,7 @@ const IngredientsList = () => {
       <Container>
         <div className="flex flex-col items-center text-center gap-8">
           <h2 className="text-4xl font-medium">
-            Inside Every <span className="font-bold">Sugar Defender</span> Drop
+            Inside Every <span className="font-bold">FloraSlim</span> Drop
             You&#39;ll Find:
           </h2>
           <p className="text-base text-gray-600">

@@ -25,7 +25,7 @@ const FreeShippingOffer = () => {
           <div className="w-full sm:w-2/4">
             <img
               src="/assets/1bottle-fruits.webp"
-              alt="Sugar Defender Bottles with Fruits"
+              alt="FloraSlim Bottles with Fruits"
               className="w-full hover:scale-105 transition-transform duration-300"
             />
           </div>

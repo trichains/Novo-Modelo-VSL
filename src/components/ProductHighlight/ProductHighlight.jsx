@@ -9,7 +9,7 @@ const ProductHighlight = () => {
           <div className="w-full flex justify-center">
             <img
               src="/assets/2bootle-fruits.webp"
-              alt="Sugar Defender Bottle"
+              alt="FloraSlim Bottle"
               className="w-3/4 hover:scale-105 transition-transform duration-300"
             />
           </div>
@@ -22,9 +22,9 @@ const ProductHighlight = () => {
             <p className="text-base">
               Support healthy blood sugar levels, boost your all-day natural
               energy, and promote your sharp thinking with the help of BLOOD
-              SUGAR FORMULA by Sugar Defender RESEARCH! A highly effective
-              formula, proven to help support your healthy fat-burning
-              metabolism for perfect blood sugar!
+              SUGAR FORMULA by FloraSlim RESEARCH! A highly effective formula,
+              proven to help support your healthy fat-burning metabolism for
+              perfect blood sugar!
             </p>
             <ul className="grid grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
               <li>✔ Natural Formula</li>

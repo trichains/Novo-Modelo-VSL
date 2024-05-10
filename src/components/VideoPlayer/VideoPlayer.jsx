@@ -7,10 +7,12 @@ const VideoPlayer = ({ src }) => {
       <Container>
         <div className="w-full flex flex-col items-center text-center gap-6">
           <div className="flex flex-col gap-2 px-4">
-            <h1 className="text-4xl font-medium">Doctors Shocked:</h1>
-            <h2 className="text-5xl font-bold">
-              Can This Enzyme Bust Diabetes?
-            </h2>
+            <h1 className="text-5xl font-semibold tracking-wide text-slate-200">
+              CAMBRIDGE SPECIALIST DISCOVERS{' '}
+              <span className="font-bold">NATURAL OZEMPIC</span> FOR BURNING
+              ACCUMULATED FAT AFTER FAMILY TRAGEDY{' '}
+              <span className="font-bold text-red-400">(WATCH THE VIDEO)</span>
+            </h1>
           </div>
           <div className="relative w-full">
             <iframe

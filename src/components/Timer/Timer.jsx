@@ -53,8 +53,8 @@ const Timer = forwardRef((_, ref) => {
       <Container>
         <div className="flex flex-col items-center gap-6 text-center">
           <h2 className="text-3xl sm:text-4xl font-medium">
-            Claim your Discounted{' '}
-            <span className="font-bold">Sugar Defender</span> Below
+            Claim your Discounted <span className="font-bold">FloraSlim</span>{' '}
+            Below
           </h2>
 
           {/*
