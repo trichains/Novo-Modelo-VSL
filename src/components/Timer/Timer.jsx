@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, forwardRef } from 'react';
 import Container from '../Container/Container';
 
 /**
@@ -6,7 +6,7 @@ import Container from '../Container/Container';
  * Exibe um temporizador regressivo que inicia de um tempo especificado e conta até zero.
  * O estado do temporizador é persistido no localStorage para continuar a contagem mesmo após recarregar a página.
  */
-const Timer = () => {
+const Timer = forwardRef((_, ref) => {
   // Inicialização do estado usando localStorage para persistir o temporizador através de recargas da página.
   const [timeLeft, setTimeLeft] = useState(() => {
     const savedTime = localStorage.getItem('timer');
@@ -48,7 +48,7 @@ const Timer = () => {
 
   // Renderiza o temporizador dentro de um container estilizado.
   return (
-    <div className="bg-white py-12 px-4">
+    <div ref={ref} className="bg-white py-12 px-4">
       {/* Container para: flex justify-center items-center max-w-screen-lg(1024px) mx-auto */}
       <Container>
         <div className="flex flex-col items-center gap-6 text-center">
@@ -88,6 +88,8 @@ const Timer = () => {
       </Container>
     </div>
   );
-};
+});
+
+Timer.displayName = 'Timer'; // Definindo o nome de exibição do componente
 
 export default Timer;
