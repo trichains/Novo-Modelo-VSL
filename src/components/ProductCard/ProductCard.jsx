@@ -132,7 +132,7 @@ const Products = ({ specialOfferText }) => {
             buttonText="ADD TO CART"
             imageUrl="/assets/products/6kits.png"
             isFeatured={true} // A borda azul será exibida para destacar esse card do produto
-            checkoutUrl="https://www.digistore24.com/product/544945" // 6 bottles - $247
+            checkoutUrl="https://www.digistore24.com/product/544946" // 6 bottles - $247
           />
           {/* 3 kits */}
           <ProductCard
@@ -145,7 +145,7 @@ const Products = ({ specialOfferText }) => {
             bonus="" // no bonuses
             buttonText="ADD TO CART"
             imageUrl="/assets/products/3kits.png"
-            checkoutUrl="https://www.digistore24.com/product/544946" // 3 bottles - $147
+            checkoutUrl="https://www.digistore24.com/product/544945" // 3 bottles - $147
           />
         </div>
       </div>
