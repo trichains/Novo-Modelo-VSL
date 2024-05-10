@@ -77,7 +77,9 @@ const Testimonials = () => {
                   className="w-32 h-32 rounded-full mx-auto shadow-lg hover:shadow-2xl transition-shadow duration-300 object-cover"
                 />
                 <div className="flex flex-col gap-4">
-                  <p className="text-gray-600">{testimonial.testimonial}</p>
+                  <p className="text-sm sm:text-base text-gray-600">
+                    {testimonial.testimonial}
+                  </p>
                   <div className="flex items-center gap-1">
                     <h3 className="text-xl font-bold">{testimonial.name}</h3>-
                     <span className="text-sm text-gray-500">

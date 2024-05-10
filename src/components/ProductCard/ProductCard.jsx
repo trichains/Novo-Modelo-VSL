@@ -38,8 +38,8 @@ const ProductCard = ({
             Bottle
           </span>
         </div>
-        <div className="flex flex-col items-center justify-center gap-1">
-          <p className="text-lg text-green-600 font-semibold">
+        <div className="w-full flex flex-col items-center justify-center gap-1">
+          <p className="text-base sm:text-lg text-green-600 font-semibold">
             YOU SAVE ${savings}
           </p>
           <p className="text-sm">{bonus}</p>

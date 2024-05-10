@@ -18,7 +18,7 @@ const CustomerReviews = () => {
             </div>
             <p className="text-xs sm:text-sm">based on 2000+ reviews</p>
           </div>
-          <div className="text-sm sm:text-base">
+          <div className="w-full flex justify-center gap-2 text-center items-center text-sm sm:text-base">
             <a
               href="#reviews"
               className="hover:text-indigo-800 transition-colors duration-300 underline">
