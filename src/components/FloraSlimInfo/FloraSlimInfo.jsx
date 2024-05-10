@@ -33,9 +33,9 @@ const FloraSlimInfo = () => {
               Dr. Sarah Salinas Creator, FloraSlim
             </p>
             <img
-              src="/assets/signature.webp"
+              src="/assets/signature.png"
               alt="Signature of Tom Green"
-              className="w-32 md:w-48"
+              className="w-1/2 md:w-3/4"
             />
           </div>
         </div>
