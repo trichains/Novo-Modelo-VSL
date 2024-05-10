@@ -2,7 +2,7 @@ import { forwardRef } from 'react';
 import Timer from './components/Timer/Timer';
 import ProductCard from './components/ProductCard/ProductCard';
 import CustomerReviews from './components/CustomerReviews/CustomerReviews';
-import SugarDefenderInfo from './components/SugarDefenderInfo/SugarDefenderInfo';
+import FloraSlimInfo from './components/FloraSlimInfo/FloraSlimInfo';
 // import BonusOffer from './components/BonusOffer/BonusOffer';
 import IngredientsList from './components/IngredientsList/IngredientsList';
 import FreeShippingOffer from './components/FreeShippingOffer/FreeShippingOffer';
@@ -21,7 +21,7 @@ const AfterPitch = forwardRef((_, ref) => {
       />
       <ProductCard />
       <CustomerReviews />
-      <SugarDefenderInfo />
+      <FloraSlimInfo />
       {/* <BonusOffer /> */}
       <IngredientsList />
       <FreeShippingOffer />
