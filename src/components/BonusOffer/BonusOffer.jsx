@@ -46,7 +46,7 @@ const BonusOffer = () => {
           <div className="w-full flex flex-col items-center text-center">
             <a
               href="#products"
-              className="w-full max-w-xs p-4 bg-yellow-400 rounded-full font-bold hover:bg-yellow-500 transition-colors">
+              className="w-full max-w-xs p-4 bg-yellow-400 text-black rounded-full font-bold hover:bg-yellow-500 transition-colors">
               ORDER NOW
             </a>
           </div>
