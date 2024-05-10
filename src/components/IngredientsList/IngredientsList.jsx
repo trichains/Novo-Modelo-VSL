@@ -10,7 +10,7 @@ const ingredients = [
   {
     name: 'Grape Seed',
     desc: 'Flushes toxins, obliterates fat, and gives you unbeatable cardiovascular health.',
-    image: '/assets/ingredients/i-grapeseed.jpg'
+    image: '/assets/ingredients/i-grape-seed.png'
   },
   {
     name: 'Guarana Seed',
@@ -35,7 +35,7 @@ const ingredients = [
   {
     name: 'Green Tea Leaf',
     desc: 'Turbocharges fat-burning, crushes appetite, and powers up your metabolism perfectly.',
-    image: '/assets/ingredients/i-greentea.webp'
+    image: '/assets/ingredients/i-green-tea.webp'
   },
   {
     name: 'Gymnema',

@@ -12,21 +12,30 @@ const customerImages = [
 const testimonials = [
   {
     id: 1,
-    name: 'Sean B.',
-    location: 'North Carolina, USA',
+    name: 'Robert Wilson',
+    location: 'Dallas, Texas',
     testimonial:
-      'Very happy with the results. My blood sugar is stable and I have more energy. Product is great. Looked up helpful plants, vitamins and minerals and started buying them separately, but found this product and all were included!',
+      'If it wasn’t for FloraSlim, I’d still be yo-yo dieting, blowing cash on those fancy weight loss pills, and even thinking about going under the knife… But thank God I didn’t have to do any of that, ‘cause right in the second week of taking FloraSlim, I began to see the scale dip and my clothes starting to hang off me. Losing weight’s never been this easy and straightforward!',
     stars: 5,
-    image: '/assets/testimonials/sean.jpg'
+    image: '/assets/testimonials/man1.jpg'
   },
   {
     id: 2,
-    name: 'Sabine S.',
-    location: 'Arizona, USA',
+    name: 'Amanda Garcia',
+    location: 'San Francisco, California',
     testimonial:
-      "I really like this product! I've been taking another blood sugar support product for several years that is much more expensive and I thought I'd give this a try. Works just as well as the more expensive but yes, for less cost! Thank you!",
+      "I was totally bummed out about my body, all the stubborn fat and no definition anywhere. It got to the point where I was embarrassed to even step outside. But then I started on FloraSlim, and day by day, the fat just started melting off… I even noticed my waist getting slimmer, without that big belly I've been lugging around since my last pregnancy… And I swear, it felt like I dropped years of baby weight in just 3 weeks!",
     stars: 5,
-    image: '/assets/testimonials/sabine.jpg'
+    image: '/assets/testimonials/woman1.jpg'
+  },
+  {
+    id: 2,
+    name: 'Elizabeth Brown',
+    location: 'Philadelphia, Pennsylvania',
+    testimonial:
+      "I was about to give up on finding something that actually worked for shedding this stubborn baby weight, and then FloraSlim showed up... Oh, JOY!!! My body is now getting toned and looks so much younger, I can hardly believe it, it's mind-blowing",
+    stars: 5,
+    image: '/assets/testimonials/woman2.jpg'
   }
 ];
 
