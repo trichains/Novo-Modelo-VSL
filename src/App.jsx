@@ -26,7 +26,7 @@ function App() {
       const timer = setTimeout(() => {
         setShowPitch(true);
         localStorage.setItem('pitchShown', 'true'); // Salva o estado no localStorage
-      }, 10000); // TODO: Alterar o pitch para 2660s (44:20)
+      }, 2660 * 1000); // TODO: Alterar o pitch para 2660s (44:20)
       // ! 2660 * 1000 = 44:20
 
       return () => {

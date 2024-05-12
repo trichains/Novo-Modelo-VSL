@@ -98,12 +98,26 @@ const Products = ({ specialOfferText }) => {
       <div className="max-w-screen-xl mx-auto">
         {/* Caso tenha o specialOfferText, mostre o texto */}
         {specialOfferText && (
-          <div className="text-center mb-8 mx-auto">
-            <h2 className="text-2xl md:text-4xl font-medium">
+          <div className="flex flex-col items-center gap-4 text-center mb-8 mx-auto">
+            <h2 className="text-4xl font-medium">
               Try <span className="font-bold">FloraSlim</span> Today
               <br />
               At Special Introductory Pricing!
             </h2>
+
+            {/* Seta apontando para baixo */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              fill="currentColor"
+              className="bi bi-arrow-down animate-bounce"
+              viewBox="0 0 16 16">
+              <path
+                fillRule="evenodd"
+                d="M8 3.5a.5.5 0 0 1 .5.5v8.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.493.493 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 12.793V4a.5.5 0 0 1 .5-.5z"
+              />
+            </svg>
           </div>
         )}
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-10">
@@ -116,7 +130,7 @@ const Products = ({ specialOfferText }) => {
             shipping="+ Shipping"
             savings="59"
             bonus="" // no bonuses
-            buttonText="ADD TO CART"
+            buttonText="BUY NOW!"
             imageUrl="/assets/products/1kit.png"
             checkoutUrl="https://www.digistore24.com/product/546334" // 1 bottle - $59
           />
@@ -129,7 +143,7 @@ const Products = ({ specialOfferText }) => {
             shipping="+ Free Us Shipping"
             savings="247"
             bonus="" // no bonuses
-            buttonText="ADD TO CART"
+            buttonText="BUY NOW!"
             imageUrl="/assets/products/6kits.png"
             isFeatured={true} // A borda azul será exibida para destacar esse card do produto
             checkoutUrl="https://www.digistore24.com/product/544946" // 6 bottles - $247
@@ -143,7 +157,7 @@ const Products = ({ specialOfferText }) => {
             shipping="+ Free Us Shipping"
             savings="147"
             bonus="" // no bonuses
-            buttonText="ADD TO CART"
+            buttonText="BUY NOW!"
             imageUrl="/assets/products/3kits.png"
             checkoutUrl="https://www.digistore24.com/product/544945" // 3 bottles - $147
           />
