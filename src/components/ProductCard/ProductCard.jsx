@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { productsData } from './productsData';
 
 const ProductCard = ({
   title,
@@ -93,6 +94,8 @@ ProductCard.propTypes = {
 };
 
 const Products = ({ specialOfferText }) => {
+  console.log('Todos os dados de produtos:', productsData); // Mostra todos os dados de produtos de uma vez
+
   return (
     <div id="products" className="bg-white py-12 px-4">
       <div className="max-w-screen-xl mx-auto">
@@ -121,46 +124,9 @@ const Products = ({ specialOfferText }) => {
           </div>
         )}
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 sm:gap-10">
-          {/* 1 kit */}
-          <ProductCard
-            title="Try One"
-            supply="30 Day Supply"
-            price="59"
-            oldPrice="118"
-            shipping="+ Shipping"
-            savings="59"
-            bonus="" // no bonuses
-            buttonText="BUY NOW!"
-            imageUrl="/assets/products/1kit.png"
-            checkoutUrl="https://www.digistore24.com/product/546334" // 1 bottle - $59
-          />
-          {/* 6 kits */}
-          <ProductCard
-            title="Best Value"
-            supply="180 Day Supply"
-            price="39"
-            oldPrice="588"
-            shipping="+ Free Us Shipping"
-            savings="247"
-            bonus="" // no bonuses
-            buttonText="BUY NOW!"
-            imageUrl="/assets/products/6kits.png"
-            isFeatured={true} // A borda azul será exibida para destacar esse card do produto
-            checkoutUrl="https://www.digistore24.com/product/544946" // 6 bottles - $247
-          />
-          {/* 3 kits */}
-          <ProductCard
-            title="Most Popular"
-            supply="90 Day Supply"
-            price="49"
-            oldPrice="354"
-            shipping="+ Free Us Shipping"
-            savings="147"
-            bonus="" // no bonuses
-            buttonText="BUY NOW!"
-            imageUrl="/assets/products/3kits.png"
-            checkoutUrl="https://www.digistore24.com/product/544945" // 3 bottles - $147
-          />
+          {productsData.map((product, index) => (
+            <ProductCard key={index} {...product} />
+          ))}
         </div>
       </div>
     </div>
