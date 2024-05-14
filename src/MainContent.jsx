@@ -13,14 +13,12 @@ import GuaranteeSection from './components/GuaranteeSection/GuaranteeSection';
 import ProductWithModal from './components/ProductWithModal/ProductWithModal';
 import ScientificReferences from './components/ScientificReferences/ScientificReferences';
 
-const AfterPitch = forwardRef((_, ref) => {
+const MainContent = forwardRef(() => {
   return (
     <div>
       <FloraSlimInfo />
       <IngredientsList />
-      <Timer
-        ref={ref} // Primeiro o Timer recebe a referência
-      />
+      <Timer />
       {/* <ProductCard /> */}
       {/* <BonusOffer /> */}
       <FreeShippingOffer />
@@ -41,6 +39,6 @@ const AfterPitch = forwardRef((_, ref) => {
   );
 });
 
-AfterPitch.displayName = 'AfterPitch'; // Definindo o nome de exibição para o componente
+MainContent.displayName = 'MainContent'; // Definindo o nome de exibição para o componente
 
-export default AfterPitch;
+export default MainContent;
