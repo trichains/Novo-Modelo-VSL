@@ -46,7 +46,7 @@ const ingredients = [
 
 const IngredientsList = () => {
   return (
-    <div className="bg-white py-12 px-4">
+    <div className="bg-white py-12 px-4" id='ingredients'>
       <Container>
         <div className="flex flex-col items-center text-center gap-8">
           <h2 className="text-4xl font-medium">

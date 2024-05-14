@@ -1,4 +1,5 @@
 import Container from '../Container/Container';
+
 // importar as politicas de privacidade e links uteis
 
 // Componente Footer responsável por mostrar informações legais e links de navegação
@@ -36,7 +37,7 @@ const Footer = () => {
               Shipping
             </a>
             <a
-              href="#"
+              href="/disclaimer"
               className="hover:underline hover:text-yellow-400 transition-colors duration-300 tracking-wider font-medium">
               Disclaimer
             </a>

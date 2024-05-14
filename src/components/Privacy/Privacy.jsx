@@ -2,8 +2,8 @@
 // Puxar o container
 // Puxar a navbar
 
-import Navbar from '../Navbar/Navbar'
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 
 const Privacy = () => {
     return (

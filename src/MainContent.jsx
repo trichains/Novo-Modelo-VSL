@@ -1,4 +1,5 @@
 import { forwardRef } from 'react';
+import Header from './components/MainLayout/Header/Header';
 import Timer from './components/Timer/Timer';
 import ProductCard from './components/ProductCard/ProductCard';
 import CustomerReviews from './components/CustomerReviews/CustomerReviews';
@@ -12,10 +13,12 @@ import ProductHighlight from './components/ProductHighlight/ProductHighlight';
 import GuaranteeSection from './components/GuaranteeSection/GuaranteeSection';
 import ProductWithModal from './components/ProductWithModal/ProductWithModal';
 import ScientificReferences from './components/ScientificReferences/ScientificReferences';
+import Footer from './components/Footer/Footer';
 
 const MainContent = forwardRef(() => {
   return (
     <div>
+      <Header />
       <FloraSlimInfo />
       <IngredientsList />
       <Timer />
@@ -35,6 +38,7 @@ const MainContent = forwardRef(() => {
       <CustomerReviews />
       <ScientificReferences />
       <ProductWithModal />
+      <Footer />
     </div>
   );
 });

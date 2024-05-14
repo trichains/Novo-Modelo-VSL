@@ -17,9 +17,10 @@ const ProductHighlight = () => {
           <div className="w-full flex flex-col gap-6">
             <h2 className="text-3xl font-medium">
               Are you struggling to lose weight, fighting stubborn fat, or
-              feeling low on energy? Boost your energy, melt fat fast, and
-              transform your body with the FloraSlim Weight Loss Formula!
+              feeling low on energy?
             </h2>
+            <h3 className='text-2xl font-medium'>Boost your energy, melt fat fast, and
+              transform your body with the FloraSlim Weight Loss Formula!</h3>
             <p className="text-base">
               This highly effective formula will turn your metabolism into a
               fat-incinerating furnace, burning away extra weight and sculpting

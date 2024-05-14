@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 // Componente principal que contém a lógica do modal e a imagem do produto
 const ProductModal = () => {
   return (
-    <div className="bg-gradientCustom pt-4 px-4 pb-12">
+    <div className="bg-gradientCustom pt-4 px-4 pb-12" id="full-label">
       <Container>
         <div className="flex flex-col items-center justify-center">
           {/* Imagem que, ao clicar, abre o modal */}

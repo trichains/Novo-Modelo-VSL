@@ -1,17 +1,22 @@
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MainLayout from './components/MainLayout/MainLayout';
 import MainContent from './MainContent';
-import Footer from './components/Footer/Footer';
-
+import Disclaimer from './components/Disclaimer/Disclaimer';
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <MainLayout>
+              <MainContent />
+            </MainLayout>
+          }
+        />
+        <Route path="/disclaimer" element={<Disclaimer />} />
+      </Routes>
+    </Router>
   );
 }
-
 export default App;

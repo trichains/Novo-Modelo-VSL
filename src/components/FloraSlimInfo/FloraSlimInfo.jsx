@@ -2,7 +2,7 @@ import Container from '../Container/Container';
 
 const FloraSlimInfo = () => {
   return (
-    <div className="bg-white py-12 px-4">
+    <div className="bg-white py-12 px-4" id="about">
       <Container>
         <div className="w-full flex flex-col items-center text-center bg-slate-200 p-8 md:p-12 rounded-3xl shadow-sm">
           <h1 className="text-3xl md:text-5xl font-medium mb-4">
