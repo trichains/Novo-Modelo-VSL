@@ -16,14 +16,13 @@ import ScientificReferences from './components/ScientificReferences/ScientificRe
 const AfterPitch = forwardRef((_, ref) => {
   return (
     <div>
+      <FloraSlimInfo />
+      <IngredientsList />
       <Timer
         ref={ref} // Primeiro o Timer recebe a referência
       />
-      <ProductCard />
-      <CustomerReviews />
-      <FloraSlimInfo />
+      {/* <ProductCard /> */}
       {/* <BonusOffer /> */}
-      <IngredientsList />
       <FreeShippingOffer />
       <Testimonials />
       <Timer />

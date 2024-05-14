@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 
-import VideoPlayer from './components/VideoPlayer/VideoPlayer';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+// import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 import AfterPitch from './AfterPitch';
 import ScientificReferences from './components/ScientificReferences/ScientificReferences';
 import Footer from './components/Footer/Footer';
@@ -46,7 +48,9 @@ function App() {
 
   return (
     <div>
-      <VideoPlayer src="https://scripts.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/players/663e3c84ce7288000ab97907/embed.html" />
+      <Navbar />
+      <Header />
+      {/* <VideoPlayer src="https://scripts.converteai.net/878e8e96-9e3c-48f1-96d9-9d726cef585a/players/663e3c84ce7288000ab97907/embed.html" /> */}
 
       {/* Renderiza as referências científicas sempre antes do pitch */}
       {!showPitch && <ScientificReferences />}
